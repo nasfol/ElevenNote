@@ -322,7 +322,7 @@ namespace ElevenNote.WebAPI.Controllers
         // POST api/Account/Register
         [AllowAnonymous]
         [Route("Register")]
-        public async Task<IHttpActionResult> Register(RegisterBindingModel model)
+        public async Task<IHttpActionResult> Register2(RegisterBindingModel model)
         {
             if (!ModelState.IsValid)
             {
